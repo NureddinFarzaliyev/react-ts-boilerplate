@@ -1,13 +1,11 @@
-import Counter from "@/shared/counter/Counter";
-import { Theme, ThemePanel } from "@radix-ui/themes";
+import Counter from "@/features/counter/Counter";
 
 const App = () => {
   return (
-    <Theme accentColor="gray" radius="small" appearance="dark">
+    <div>
       <h1>App</h1>
       <Counter />
-      <ThemePanel />
-    </Theme>
+    </div>
   );
 };
 

@@ -1,1 +1,9 @@
-# Web-Based RSS Client
+# React & Typescript Template
+
+- React
+- Typescript
+- Zustand
+- Tailwind CSS
+- React Router
+- Axios
+- "@" Alias
