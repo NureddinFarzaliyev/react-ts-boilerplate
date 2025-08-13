@@ -1,12 +1,8 @@
-import Counter from "@/features/counter/Counter";
+import { router } from "@/app/appRouter";
+import { RouterProvider } from "react-router-dom";
 
 const App = () => {
-  return (
-    <div>
-      <h1>App</h1>
-      <Counter />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
